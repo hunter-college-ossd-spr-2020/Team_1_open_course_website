@@ -1,0 +1,19 @@
+  
+{
+  "manifest_version": 2,
+  "name": "Emoji Substitution",
+  "description": "Replaces words with emojis. Adds a purpple, double border, and a pinkc background to all webpages",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/image-48.png",
+    "96": "icons/image-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./emojiMap.js", "./substitute.js"]
+    }
+  ]
+}
