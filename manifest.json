@@ -1,19 +1,29 @@
-  
 {
-  "manifest_version": 2,
-  "name": "Emoji Substitution",
-  "description": "Replaces words with emojis. Adds a purpple, double border, and a pinkc background to all webpages",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution",
-  "version": "1.0",
-  "icons": {
-    "48": "icons/image-48.png",
-    "96": "icons/image-96.png"
-  },
 
-  "content_scripts": [
+  "description": "A modification of open-my-page-button: Adds browser action icon to toolbar to open packaged web page. Adds a purpple, double border, and a pinkc background to all webpages",
+  "manifest_version": 2,
+  "name": "Open_team_1_homepage",
+  "version": "1.0",
+  "homepage_url": "https://github.com/hunter-college-ossd-spr-2020/Team_1_add_on, https://github.com/mdn/webextensions-examples/tree/master/open-my-page-button",
+  "icons": {
+    "48": "icons/image-48.png"
+  },
+  
+   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["./emojiMap.js", "./substitute.js"]
+      "js": ["webpage.js"]
     }
-  ]
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "browser_action": {
+    "default_icon": "icons/image-32.png"
+  }
+  
+ 
+
 }
