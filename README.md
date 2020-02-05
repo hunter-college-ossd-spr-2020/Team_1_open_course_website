@@ -6,7 +6,7 @@ What it does?
 -----------------
 - When user click on the botton on the upper right corner, it will open "team-1.html" in a new tab.
 
-- It also changes the boder and the background color of all webpages.
+- It also adds the double solid purple border and a pink background color to all webpages.
 
 
 
