@@ -4,9 +4,9 @@ It's a modification of open-my-page:https://github.com/mdn/webextensions-example
 
 What it does?
 -----------------
-- When user click on the botton on the upper right corner, it will open "team-1.html" in a new tab.
+- When user click on the botton on the upper right corner, it will open the Open Source Software Development Course homepage in a new tab.
 
-- It also adds the double solid purple border and a pink background color to all webpages.
+- It also adds the double solid purple border and a pink background color on any website the user visits.
 
 
 
